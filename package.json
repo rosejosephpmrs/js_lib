@@ -1,0 +1,14 @@
+{
+  "name": "js-lib-pluck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "author": "",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
